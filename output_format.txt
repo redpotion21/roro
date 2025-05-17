@@ -1,0 +1,5 @@
+ Reply using Japanese with English translations. Return the result in this JSON format:
+{
+  "Japanese": "Original Japanese text here.",
+  "English": "Your English translation here."
+}
