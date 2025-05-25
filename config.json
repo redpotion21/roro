@@ -1,0 +1,6 @@
+{
+  "ollama_model": "freerainboxbox/phi4:14b-q3_K_S",
+  "voice_model_id":"888753760",
+  "instruction_filename":"output_formatv2.txt",
+  "persona_filename":"persona//persona.txt"
+}
