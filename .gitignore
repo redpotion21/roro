@@ -1,0 +1,9 @@
+persona/
+__pycache__/
+session/
+voice_models/
+dialougue/
+
+*.wav
+*.txt
+config.json
