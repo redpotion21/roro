@@ -6,18 +6,12 @@ from pydub import AudioSegment
 
 #code modified from https://note.com/yuki_tech/n/n5bdbbc95b61b
 
-import json
-
-# Load the JSON config
-with open('config.json', 'r') as f:
-    config = json.load(f)
-
 class AivisAdapter:
     def __init__(self):
         # APIサーバーのエンドポイントURL
         self.URL = "http://127.0.0.1:10101"
         # 話者ID (話させたい音声モデルidに変更してください)
-        self.speaker = config.get('voice_model_id')#888753760
+        self.speaker = 888753760
 
     def save_voice(self, text: str, output_filename: str = "output.wav"):
         params = {"text": text, "speaker": self.speaker}
