@@ -6,4 +6,5 @@ dialougue/
 
 *.wav
 *.txt
+*.json
 config.json

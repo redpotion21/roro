@@ -1,6 +1,6 @@
 from ollama import chat
 import json
-from utils import IOMaster
+from IO import IOMaster
 
 with open('config.json', 'r') as f:
     config = json.load(f)

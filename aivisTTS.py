@@ -3,10 +3,7 @@ import json
 import soundfile
 import requests
 from pydub import AudioSegment
-
 #code modified from https://note.com/yuki_tech/n/n5bdbbc95b61b
-
-import json
 
 # Load the JSON config
 with open('config.json', 'r') as f:
