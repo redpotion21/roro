@@ -41,6 +41,8 @@ class IOmaster():
                     tmp+=i
                     phrases.append(tmp)
                     tmp = ''
+            if tmp != '':
+                phrases.append(tmp)
             for phrase in phrases:
                 self.adapter.save_voice(phrase)
                 namae = "dialougue//output" + str(self.counter) + ".wav"
